@@ -1,8 +1,8 @@
 // helloWorld function 
-function helloWorld() {
+const helloWorld = function() {
     return "Hello, World!";
 }
 
-function notHelloWorld() {
-    return "Hope this works.";
+const sayHello = function() {
+
 }
