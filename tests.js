@@ -23,6 +23,8 @@ describe("sayHello", function(){
     });
     it('should return "Hello, Grady" when called sayHello("Grady")', function () {
         expect(sayHello("Grady")).toBe("Hello, Grady");
-
+    });
+    it('should return "Hello, Casey" when called sayHello("Casey")', function () {
+        expect(sayHello("Casey")).toBe("Hello, Casey");
     });
 });
