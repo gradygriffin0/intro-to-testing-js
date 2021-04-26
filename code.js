@@ -4,6 +4,9 @@ const helloWorld = function() {
 }
 
 const sayHello = function(name) {
+    if(typeof name !== "string"){
+        return "Hello, World";
+    }
     return "Hello, " + name;
 }
 
