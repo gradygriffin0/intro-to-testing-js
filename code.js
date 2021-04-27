@@ -22,3 +22,9 @@ function isFive(input){
     }
 
 }
+
+function isEven(input = false){
+    return (typeof input === "number") && (Math.abs(input) % 2 === 0);
+}
+
+console.log(isEven(-4));
