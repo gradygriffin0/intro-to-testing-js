@@ -27,4 +27,8 @@ function isEven(input = false){
     return (typeof input === "number") && (Math.abs(input) % 2 === 0);
 }
 
-console.log(isEven(-4));
+
+function isVowel(input = false){
+    let vowel = 'a' || 'e' || 'i' || 'o' || 'u'
+    return (input.toString().toLowerCase() === vowel);
+}
